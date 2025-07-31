@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{9f4723ac-c641-4f3c-81ec-4983192c8521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\exact_H">
+      <UniqueIdentifier>{84b85aa0-593e-4af8-899c-8f341d0b8433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\matrix_free">
+      <UniqueIdentifier>{31909103-6c67-4504-afd0-4bd613957ce2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix_free_H\apply_H0.cpp">
+      <Filter>Source Files\matrix_free</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix_free_H\Rayleigh_trace_estimator_matrix_free.cpp">
+      <Filter>Source Files\matrix_free</Filter>
+    </ClCompile>
+    <ClCompile Include="exact_H\Exact_trace.cpp">
+      <Filter>Source Files\exact_H</Filter>
+    </ClCompile>
+    <ClCompile Include="exact_H\Gaussian_trace.cpp">
+      <Filter>Source Files\exact_H</Filter>
+    </ClCompile>
+    <ClCompile Include="exact_H\Hutchinson_trace.cpp">
+      <Filter>Source Files\exact_H</Filter>
+    </ClCompile>
+    <ClCompile Include="exact_H\Kronecker_exact.cpp">
+      <Filter>Source Files\exact_H</Filter>
+    </ClCompile>
+    <ClCompile Include="exact_H\Rayleigh-quotient_trace.cpp">
+      <Filter>Source Files\exact_H</Filter>
+    </ClCompile>
+    <ClCompile Include="exact_H\Unit_vector_estimator.cpp">
+      <Filter>Source Files\exact_H</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
